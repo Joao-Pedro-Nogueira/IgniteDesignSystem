@@ -1,1 +1,1 @@
-import {  } from "@ignite-ui/tokens"
+import {} from '@ignite-ui/tokens'
