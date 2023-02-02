@@ -9,6 +9,12 @@ export const Button = styled('button', {
   border: 0,
   fontWeight: '$bold',
   color: '$white',
+  cursor: 'pointer',
+  transition: '0.15s',
+
+  '&:hover': {
+    backgroundColor: '$ignite500',
+  },
 
   variants: {
     size: {
