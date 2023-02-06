@@ -8,6 +8,6 @@
     "build": "turbo run build"
   },
   "devDependencies": {
-    "turbo": "^1.7.2"
+    "turbo": "^1.5.5"
   }
 }

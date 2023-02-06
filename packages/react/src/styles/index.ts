@@ -15,8 +15,8 @@ export const {
   globalCss,
   keyframes,
   getCssText,
-  createTheme,
   theme,
+  createTheme,
   config,
 } = createStitches({
   themeMap: {
@@ -26,10 +26,10 @@ export const {
   },
 
   theme: {
-    fonts,
     colors,
     fontSizes,
     fontWeights,
+    fonts,
     lineHeights,
     radii,
     space,
