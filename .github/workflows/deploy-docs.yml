@@ -1,27 +1,27 @@
 name: Deploy docs
 
-on: 
+on:
   push:
     branches:
       - main
 
 jobs:
   build-and-deploy:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: 16
-      
+
       - run: npm ci
-      
+
       - run: npm run build
 
-      - name: npm run deploy-storybok
+      - name: Deploy storybook
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
