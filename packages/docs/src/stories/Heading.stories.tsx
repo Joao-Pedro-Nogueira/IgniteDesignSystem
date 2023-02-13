@@ -6,6 +6,23 @@ export default {
   component: Heading,
   args: {
     children: 'Custom title',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '3xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    onClick: {
+      actions: 'click',
+    },
   },
 } as Meta<HeadingProps>
 
