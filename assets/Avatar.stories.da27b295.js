@@ -1,0 +1,2 @@
+import{A as t}from"./index.9674b990.js";import"./index.fcd876d9.js";import"./iframe.42042641.js";import"./index.cd8c5d63.js";import"./jsx-runtime.d1db0e8d.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/Joao-Pedro-Nogueira.png",alt:"Jo\xE3o Pedro Nogueira"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,c as WithFallback,m as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.da27b295.js.map
